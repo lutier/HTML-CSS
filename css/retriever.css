@@ -1,0 +1,38 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap>#header{
+    height: 30px;
+    width: auto;
+}
+
+#wrap>#header>#title{
+    float:left;
+    font-size: x-large;
+    font-weight: bold;
+}
+#wrap>#header>#subtitle{
+    float:right;
+    color: gray;
+    font-size: small;
+}
+
+#wrap>#detail{
+    float: left;
+}
+#wrap>#detail>ul{
+    list-style: none;
+}
+#wrap>#detail>ul>li{
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+.images{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+}
