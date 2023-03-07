@@ -7,23 +7,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <style>
-        
-        *{
-            margin: 0;
-            padding: 0;
+        div{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
         }
-
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: green;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        #box3{
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
-    <div class="fa-3x">
-        <i class="fa-solid fa-circle-plus fa-beat"></i>
-        <i class="fa-solid fa-heart fa-beat"></i>
-        <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;" ></i>
-        <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i>
-        <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i>
-      </div>
-      
-
+    <div id="box1">
+        box 1
+    </div>
+    <div id="box2">
+        box 2
+    </div>
+    <div id="box3">
+        box 3
+    </div>
 </body>
 </html>
