@@ -15,14 +15,15 @@ a{
 #wrap{
     width: 490px;
     height: 230px;
-    background-color: aqua;
+    background-color: #fff;
     margin: 30px;
+    border: 1px solid #777;
+    border-radius: 10px;
 }
 
 #header{
     width: 490px;
     height: 50px;
-    background-color: aquamarine;
     padding: 10px 10px;
     box-sizing: border-box;
 }
@@ -30,7 +31,6 @@ a{
 #header>h1{
     font-size: 20px;
     display: inline;
-
     margin-right: 230px;
 }
 
@@ -41,7 +41,6 @@ a{
 #contents{
     width: 490px;
     height: 180px;
-    background-color: antiquewhite;
     padding-top: 15px;
     padding-left: 15px;
     box-sizing: border-box;
@@ -50,6 +49,10 @@ a{
 #contents>ul>li{
     float: left;
     margin-right: 15px;
+}
+
+#contents>ul>li>a{
+    color: ;
 }
 
 #contents>ul>li>a>img{
@@ -61,7 +64,7 @@ a{
 #contents>ul>li>a>span{
     display: block;
     width: 100px;
-    background-color: chartreuse;
+    
     
 
 }
