@@ -14,16 +14,25 @@
         }
         #box1{
             background-color: red;
+            position: relative;
+            left: 220px;
+            top: 50px;
+            z-index: 2; 
         }
+        /*
+        <!-- z-index = 기본값  1, 겹치는 상태에서 인덱스가 높을수록 윗부분에 뜸, position:static 상태에서는 사용불가-->
+        수직 높이의 위치를 결정. position:relative 에서 움직일 수 있게 하고 z-index값 조정
+        */
         #box2{
             background-color: green;
             position: relative;
-            top: 100px;
+            left: 50px;
+            top: 50px;
         }
         #box3{
             background-color: blue;
             position: relative;
-            top: 200px;
+            z-index: 3;
         }
     </style>
 </head>
